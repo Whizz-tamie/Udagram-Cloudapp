@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: ./reverseproxy
+    image: whizztamie/reverseproxy:v1
+  udagram-api-feed:
+    build:
+      context: ./udagram-api-feed
+    image: whizztamie/udagram-api-feed:v1
+  udagram-api-user:
+    build:
+      context: ./udagram-api-user
+    image: whizztamie/udagram-api-user:v1
+  udagram-frontend:
+    build:
+      context: ./udagram-frontend
+    image: whizztamie/udagram-frontend:v1
