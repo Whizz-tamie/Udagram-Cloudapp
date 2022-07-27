@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: whizztamie/udagram-frontend:v1
+        image: whizztamie/udagram-frontend:v3
         imagePullPolicy: Always
         resources:
           limits:

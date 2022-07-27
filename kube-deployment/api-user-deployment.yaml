@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-user
-        image: whizztamie/udagram-api-user:v1
+        image: whizztamie/udagram-api-user:v3
         imagePullPolicy: Always
         resources:
           limits:

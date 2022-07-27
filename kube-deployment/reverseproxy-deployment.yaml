@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: whizztamie/reverseproxy:v1
+        image: whizztamie/reverseproxy:v3
         imagePullPolicy: Always
         resources:
           limits:
-            memory: "1024Mi"
+            memory: "2048Mi"
             cpu: "500m"
         ports:
         - containerPort: 8080
